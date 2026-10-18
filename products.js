@@ -105,6 +105,6 @@ window.DR_BUNDLES = [
     items: ['discipline', 'budget'],
     text: 'Держишь в порядке и дела, и деньги — в одном тёмном стиле.',
     price: 490,
-    pay: ''
+    pay: 'https://auth.robokassa.ru/merchant/Invoice/G-HZwUrqK0Omi0t69POm9A'
   }
 ];
