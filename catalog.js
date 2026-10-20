@@ -68,10 +68,10 @@
   function payBlock(id, title, price, pay) {
     return '<div class="order"><div class="order__row"><span>Ваш заказ</span><b>' + esc(title) + '</b></div>' +
       '<div class="order__row"><span>К оплате</span><b class="price">' + rub(price) + '</b></div>' +
-      (pay
+      (pay && !window.DR_SALES_PAUSED
         ? '<a class="btn btn--big btn--wide" href="' + esc(pay) + '" data-product="' + id + '">Перейти к оплате</a>'
-        : '<span class="btn btn--big btn--wide btn--off">Оплата скоро откроется</span>') +
-      '<p class="note">Ссылка на таблицу откроется сразу после оплаты. Работает в Google Таблицах и Excel.<br>' +
+        : '<span class="btn btn--big btn--wide btn--off">' + (window.DR_SALES_PAUSED ? 'Продажи временно приостановлены' : 'Оплата скоро откроется') + '</span>') +
+      '<p class="note">' + (window.DR_SALES_PAUSED ? 'Приём оплаты временно приостановлен. Если хотите купить — напишите на goodflow.sales@gmail.com, сообщим, когда продажи откроются.' : 'Ссылка на таблицу откроется сразу после оплаты. Работает в Google Таблицах и Excel.') + '<br>' +
       'Для личного использования — передача и перепродажа запрещены (<a href="oferta.html">оферта</a>).</p></div>';
   }
 

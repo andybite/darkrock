@@ -32,6 +32,8 @@
 </head>
 <body>
 
+<div class="pausebar" id="pausebar" hidden>Продажи временно приостановлены — скоро вернёмся. Вопросы: <a href="mailto:goodflow.sales@gmail.com">goodflow.sales@gmail.com</a></div>
+
 <header class="top">
   <div class="wrap top__in">
     <a class="logo" href="index.html">Dark<span>Rock</span></a>
@@ -140,5 +142,6 @@
 
 <script src="products.js"></script>
 <script src="catalog.js"></script>
+<script>if (window.DR_SALES_PAUSED) document.getElementById('pausebar').hidden = false;</script>
 </body>
 </html>
