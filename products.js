@@ -181,14 +181,15 @@ window.DR_PRODUCTS = [
   },
   {
     id: 'session',
-    status: 'soon',
+    status: 'live',
+    isNew: true,
     cats: ['planning'],
     catName: 'Планирование · Учёба',
     label: 'SESSION',
     title: 'Планер сессии',
     short: 'Экзамены, билеты и обратный отсчёт: таблица скажет, сколько билетов учить в день, чтобы успеть.',
     price: 290,
-    pay: '',
+    pay: 'https://auth.robokassa.ru/merchant/Invoice/cCzAy80HI06zn7SRB9fL_w',
     gallery: [
       { src: 'img/session-overview.jpg', alt: 'Обзор: ближайший экзамен, процент выученного, билетов в день' },
       { src: 'img/session-exams.jpg',    alt: 'Экзамены и зачёты: предмет, дата, тип, оценка' },
