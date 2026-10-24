@@ -60,7 +60,7 @@ window.DR_PRODUCTS = [
     cats: ['finance'],
     catName: 'Финансы',
     label: 'BUDGET',
-    title: 'Бюджет на месяц',
+    title: 'Трекер бюджета',
     short: 'Тёмный неоновый бюджет: видно, сколько можно потратить сегодня, куда уходят деньги и сколько уже отложено.',
     price: 290,
     pay: 'https://auth.robokassa.ru/merchant/Invoice/fIUXB-bn7US23X6eui3baA',
