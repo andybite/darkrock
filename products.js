@@ -130,8 +130,9 @@ window.DR_PRODUCTS = [
     price: 290,
     pay: 'https://auth.robokassa.ru/merchant/Invoice/d0u4Gz5XeEquA-MsixK1KQ',
     gallery: [
-      { src: 'img/habits-neon-1.jpg', alt: 'Неоновый трекер: итог месяца, проценты по неделям и столбики по дням' },
-      { src: 'img/habits-neon-2.jpg', alt: 'Галочки по привычкам, у каждой недели свой цвет' }
+      { src: 'img/habits-neon-1.png', alt: 'Неоновый трекер: плитки месяца, проценты по неделям, сетка привычек и ТОП-10' },
+      { src: 'img/habits-neon-2.png', alt: 'Итог месяца с кольцом: выполнено, пропущено, впереди' },
+      { src: 'img/habits-neon-3.png', alt: 'Цели на неделю по цветам недель, выполненные зачёркиваются сами' }
     ],
     inside: [
       'Тёмный неоновый дизайн, у каждой недели свой цвет',
